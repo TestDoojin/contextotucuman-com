@@ -118,6 +118,10 @@
     "dfp132312131123132" : {
       "slot" : "1212321321",
       "type" : "dfp"
+    },
+    "test" : {
+      "slot" : "etst",
+      "type" : "doubleclick"
     }
   }
 }
