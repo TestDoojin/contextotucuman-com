@@ -114,6 +114,10 @@
     "dfptest1" : {
       "slot" : "testtt",
       "type" : "dfp"
+    },
+    "dfp1323123" : {
+      "slot" : "1212321321",
+      "type" : "dfp"
     }
   }
 }
