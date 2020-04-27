@@ -1,0 +1,45 @@
+{
+	"name": "contextotucuman.com",
+	"version": "1.0.84",
+	"description": "contextotucuman.com repository",
+	"main": "index.js",
+	"scripts": {
+		"test": "marfeel test",
+		"build": "marfeel build",
+		"e2e": "marfeel e2e",
+		"lint": "marfeel lint",
+		"serve": "marfeel serve"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Marfeel/contextotucuman.com.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Marfeel/contextotucuman.com/issues"
+	},
+	"homepage": "https://github.com/Marfeel/contextotucuman.com#readme",
+	"devDependencies": {
+		"@marfeel/cli": "^1.0.1-snapshot.308",
+		"@marfeel/core": "^1.0.0-alpha.23252",
+		"@marfeel/eslint-config-jest": "^1.0.1-snapshot.19",
+		"@marfeel/eslint-config-js": "^1.0.1-snapshot.19",
+		"@marfeel/touch-utils": "^1.0.9-snapshot.122.0"
+	},
+	"dependencies": {
+		"@marfeel/adserver-providers-adsense": "^1.1.1-snapshot.68.0",
+		"@marfeel/analytics-providers-googleanalytics": "^1.2.1-snapshot.28"
+	},
+	"eslintConfig": {
+		"extends": [
+			"@marfeel/js",
+			"@marfeel/jest"
+		]
+	},
+	"eslintIgnore": [
+		"**/*.js",
+		"!**/src/**/*.js",
+		"**/src/whiteCollar/*.js"
+	]
+}

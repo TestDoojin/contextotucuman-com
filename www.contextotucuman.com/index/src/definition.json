@@ -1,0 +1,67 @@
+{
+    "name": "index",
+    "title": "Contexto Tucumán",
+    "uri": "www.contextotucuman.com",
+    "twitter": "contexto_tuc",
+    "userInterface": {
+        "lang": "es",
+        "themeName": "mediaBlog",
+        "resourcesHost": "https://b.marfeel.com",
+        "features": {
+            "enableAdDealerInMosaic": false,
+            "topMediaCaptionEnabled": "true",
+            "mediaCaptionClass": "fotos-containers",
+            "twisterJavaEnabled": true,
+            "useInventoryJsonInTouch": true,
+            "maxAdsInArticle": 6,
+            "forceXL": true,
+            "socialSharing": "facebook, twitter",
+            "lateralMenuShareOptions": true,
+            "socialNetworks": [
+                {
+                    "name": "facebook",
+                    "uri": "https://www.facebook.com/contexto"
+                },
+                {
+                    "name": "twitter",
+                    "uri": "https://twitter.com/contexto_tuc"
+                },
+                {
+                    "name": "instagram",
+                    "uri": "https://www.instagram.com/contextotucuman/"
+                }
+            ],
+            "defaultMediaSelectorStrategy": "DETAIL_OR_HINT",
+            "logo": {
+                "alternate": "https://b.marfeel.com/statics/www.contextotucuman.com/index/logo_alternate.png",
+                "width": 245,
+                "height": 60
+            },
+            "useMetricsJson": true,
+            "wordsForFirstAd": "6,6"
+        }
+    },
+    "configuration": {
+        "blacklist": "[src=uploads/ng_crop],notas-dia,notas-sem,sidebar,at4-share,footer-above",
+        "whitelist": "row",
+        "whiteCollarScript": "index/src/whiteCollar/main.js",
+        "allowInlineStyles": "true",
+        "feedRipper": "puppeteerRipper"
+    },
+    "sectionDefinitions": [
+        {
+            "name": "portada",
+            "styles": "photo",
+            "title": "Portada",
+            "configuration": {
+                "cronRefresh": "0 0/3 * 1/1 * ? *"
+            },
+            "feedDefinitions": [
+                {
+                    "uri": "https://www.contextotucuman.com/",
+                    "alibabaDefinition": {}
+                }
+            ]
+        }
+    ]
+}

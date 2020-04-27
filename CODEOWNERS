@@ -1,0 +1,17 @@
+# This file
+CODEOWNERS @Marfeel/Frontend-Teachleads
+
+# Paid impressions
+twister.json @Marfeel/ALOT
+
+# UI
+ui.json @Marfeel/UX
+*.scss @Marfeel/UX
+
+# PWA
+pwa.json @Marfeel/alot
+
+# CMP
+/*/themes/amp/cmp/*.jsp @Marfeel/alot
+/*/themes/default/cmp/*.jsp @Marfeel/alot
+

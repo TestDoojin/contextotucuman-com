@@ -1,0 +1,22 @@
+{
+    "siteIdentity": {
+        "colors": {
+            "scheme": "DARK",
+            "main": "#CD3333",
+            "secondary": "#004c99"
+        },
+        "typography": {
+            "headings": {
+                "fontFamily": "/statics/f/ps/fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc-.woff",
+                "fontSize": "MEDIUM",
+                "fontWeight": "NORMAL"
+            },
+            "body": {
+                "fontFamily": "system-ui",
+                "fontSize": "MEDIUM",
+                "fontWeight": "NORMAL"
+            }
+        },
+        "mainLogoRatio": 0
+    }
+}

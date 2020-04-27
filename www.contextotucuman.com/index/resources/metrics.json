@@ -1,0 +1,22 @@
+{
+    "googleAnalytics": [
+        {
+            "name": "contextotucuman",
+            "uaCode": "UA-2867153-11"
+        },
+        {
+            "name": "contextoTucumanOldImplTest",
+            "uaCode": "UA-159828594-7",
+            "trackEvents": true
+        }
+    ],
+    "custom": [
+        {
+            "type": "js",
+            "file": "ContextoMetrics",
+            "platforms": [
+                "TOUCH"
+            ]
+        }
+    ]
+}
