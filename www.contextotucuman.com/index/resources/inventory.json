@@ -106,10 +106,6 @@
       "type" : "adsense",
       "ad-client" : "ca-pub-4773260293548169",
       "ad-slot" : "${SLOT}"
-    },
-    "doubleclick1231" : {
-      "slot" : "456",
-      "type" : "doubleclick"
     }
   }
 }
