@@ -4,6 +4,10 @@
     "type" : "js",
     "file" : "ContextoMetrics"
   } ],
+  "facebookPixel" : [ {
+    "name" : "facebookPixel0",
+    "id" : "test"
+  } ],
   "googleAnalytics" : [ {
     "name" : "contextotucuman",
     "uaCode" : "UA-2867153-11",
@@ -13,5 +17,5 @@
     "uaCode" : "UA-159828594-7",
     "trackEvents" : true
   } ],
-  "providerNames" : [ "custom", "googleanalytics" ]
+  "providerNames" : [ "custom", "facebookpixel", "googleanalytics" ]
 }
