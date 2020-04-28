@@ -4,10 +4,6 @@
     "type" : "js",
     "file" : "ContextoMetrics"
   } ],
-  "facebookMetric" : [ {
-    "name" : "facebookMetric0",
-    "id" : "test"
-  } ],
   "googleAnalytics" : [ {
     "name" : "contextotucuman",
     "uaCode" : "UA-2867153-11",
@@ -16,5 +12,6 @@
     "name" : "contextoTucumanOldImplTest",
     "uaCode" : "UA-159828594-7",
     "trackEvents" : true
-  } ]
+  } ],
+  "providerNames" : [ "custom", "googleanalytics" ]
 }
