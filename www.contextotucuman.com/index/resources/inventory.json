@@ -107,10 +107,6 @@
       "ad-client" : "ca-pub-4773260293548169",
       "ad-slot" : "${SLOT}"
     },
-    "doubleclick" : {
-      "slot" : "test",
-      "type" : "doubleclick"
-    },
     "giraff" : {
       "block-name" : "test",
       "type" : "giraff"
