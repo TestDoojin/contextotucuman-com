@@ -11,8 +11,7 @@
   },
   "dependencies" : {
     "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0",
-    "@marfeel/analytics-providers-googleanalytics" : "^1.2.1-snapshot.28",
-    "@marfeel/adserver-providers-doubleclick" : "1.1.2-snapshot.112.0"
+    "@marfeel/analytics-providers-googleanalytics" : "^1.2.1-snapshot.28"
   },
   "devDependencies" : {
     "@marfeel/cli" : "^1.0.1-snapshot.308",
@@ -42,7 +41,6 @@
     "type" : "git",
     "url" : "git+https://github.com/Marfeel/contextotucuman.com.git"
   },
-  "author" : "",
   "license" : "ISC",
   "bugs" : {
     "url" : "https://github.com/Marfeel/contextotucuman.com/issues"
@@ -51,5 +49,6 @@
   "eslintConfig" : {
     "extends" : [ "@marfeel/js", "@marfeel/jest" ]
   },
-  "eslintIgnore" : [ "**/*.js", "!**/src/**/*.js", "**/src/whiteCollar/*.js" ]
+  "eslintIgnore" : [ "**/*.js", "!**/src/**/*.js", "**/src/whiteCollar/*.js" ],
+  "author" : ""
 }
