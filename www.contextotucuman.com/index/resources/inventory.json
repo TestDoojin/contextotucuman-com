@@ -106,22 +106,6 @@
       "type" : "adsense",
       "ad-client" : "ca-pub-4773260293548169",
       "ad-slot" : "${SLOT}"
-    },
-    "testdfp1" : {
-      "slot" : "test",
-      "type" : "dfp"
-    },
-    "dfptest1" : {
-      "slot" : "testtt",
-      "type" : "dfp"
-    },
-    "dfp132312131123132" : {
-      "slot" : "1212321321",
-      "type" : "dfp"
-    },
-    "test" : {
-      "slot" : "etst",
-      "type" : "doubleclick"
     }
   }
 }
