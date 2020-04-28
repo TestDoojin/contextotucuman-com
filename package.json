@@ -11,7 +11,8 @@
   },
   "dependencies" : {
     "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0",
-    "@marfeel/analytics-providers-googleanalytics" : "^1.2.1-snapshot.28"
+    "@marfeel/analytics-providers-googleanalytics" : "^1.2.1-snapshot.28",
+    "@marfeel/analytics-providers-facebookpixel" : "1.0.1-snapshot.39"
   },
   "devDependencies" : {
     "@marfeel/cli" : "^1.0.1-snapshot.308",
