@@ -107,7 +107,7 @@
       "ad-client" : "ca-pub-4773260293548169",
       "ad-slot" : "${SLOT}"
     },
-    "doubleclickfds" : {
+    "doubleclickfds1" : {
       "slot" : "fdsfds",
       "type" : "doubleclick"
     }
