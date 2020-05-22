@@ -10,8 +10,7 @@
     "serve" : "marfeel serve"
   },
   "dependencies" : {
-    "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0",
-    "@marfeel/analytics-providers-chartbeat" : "1.1.7"
+    "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0"
   },
   "devDependencies" : {
     "@marfeel/cli" : "^1.0.1-snapshot.308",
