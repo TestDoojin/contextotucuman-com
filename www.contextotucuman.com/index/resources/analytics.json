@@ -1,12 +1,1 @@
-{
-  "chartbeat" : [ {
-    "vars" : {
-      "authors" : "",
-      "uid" : "test1",
-      "domain" : "test2"
-    },
-    "touchVars" : {
-      "useCookies" : ""
-    }
-  } ]
-}
+{ }
