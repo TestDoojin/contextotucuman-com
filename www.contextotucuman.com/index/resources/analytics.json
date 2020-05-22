@@ -32,5 +32,9 @@
     "vars" : {
       "pixelId" : "test1"
     }
+  }, {
+    "vars" : {
+      "pixelId" : "test"
+    }
   } ]
 }
