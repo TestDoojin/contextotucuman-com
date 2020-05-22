@@ -17,15 +17,5 @@
     "touchVars" : {
       "useCookies" : ""
     }
-  } ],
-  "comscore" : [ {
-    "vars" : {
-      "ns_site" : "etst",
-      "c2" : "test"
-    },
-    "touchVars" : {
-      "runtimeEnvironment" : "test",
-      "environment" : "test"
-    }
   } ]
 }
