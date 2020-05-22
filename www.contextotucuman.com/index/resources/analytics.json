@@ -1,162 +1,36 @@
 {
-  "googleanalytics": [
-    {
-      "vars": {
-        "account": "UA-159828594-1"
-      },
-      "touchVars": {
-        "environment": "#{env.device.environment}"
-      },
-      "triggers": {
-        "__extends": "marfeel/index/resources/analytics/triggers/googleanalytics/pageview.json",
-
-        "trackToClassicVersion": {
-          "on": "links:toClassicVersion",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "#{event.linkId}",
-            "eventLabel": "#{event.linkLocation}",
-            "eventOptions": {
-              "nonInteraction": true
-            }
-          }
-        },
-        "trackToExternal": {
-          "on": "links:toExternal",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "#{event.linkId}",
-            "eventOptions": {
-              "nonInteraction": true
-            }
-          }
-        },
-        "trackToMarfeelPage": {
-          "on": "links:toMarfeelPage",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "MarfeelWeb",
-            "eventOptions": {
-              "nonInteraction": true
-            }
-          }
-        },
-        "trackToCover": {
-          "on": "links:toCover",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "#{event.linkId}",
-            "eventOptions": {
-              "nonInteraction": true
-            }
-          }
-        },
-        "trackToPromo": {
-          "on": "links:toPromo",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "#{event.linkId}",
-            "eventOptions": {
-              "nonInteraction": true
-            }
-          }
-        },
-        "trackDownloadNativeApp": {
-          "on": "nativeApps:download",
-          "action": "event",
-          "vars": {
-            "eventCategory": "LinkOut",
-            "eventAction": "installNativeApp",
-            "eventLabel": "#{event.device}"
-          }
-        },
-        "trackCopyToClipboard": {
-          "on": "social:copyToClipboard",
-          "action": "event",
-          "vars": {
-            "eventCategory": "social",
-            "eventAction": "copyToClipboard",
-            "eventLabel": "#{event.uri}"
-          }
-        },
-        "trackShare": {
-          "on": "social:share",
-          "action": "event",
-          "vars": {
-            "eventCategory": "social",
-            "eventAction": "share",
-            "eventLabel": "#{event.provider}",
-            "eventValue": "#{env.location.href}"
-          }
-        },
-        "trackGoToComments": {
-          "on": "social:goToComments",
-          "action": "event",
-          "vars": {
-            "eventCategory": "social",
-            "eventAction": "goToComments"
-          }
-        },
-        "trackOpenPopup": {
-          "on": "share:openpopup",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "OpenSharePopup",
-            "eventLabel": "shareBar"
-          }
-        },
-        "trackCloseArticle": {
-          "on": "navigation:closearticle",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "closeArticleDetail",
-            "eventLabel": "#{event.interaction}"
-          }
-        },
-        "trackOpenArticle": {
-          "on": "navigation:openarticle",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "openArticleDetail",
-            "eventLabel": "#{event.layout}"
-          }
-        },
-        "trackOpenNextArticle": {
-          "on": "navigation:opennextarticle",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "nextArticleFromShareBar"
-          }
-        },
-        "trackSectionNavigation": {
-          "on": "navigation:sectionnavigation",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "SectionNavigation",
-            "eventLabel": "#{event.uiControl}##{event.sectionId}"
-          }
-        },
-        "trackSwipe": {
-          "on": "navigation:swipe",
-          "action": "event",
-          "vars": {
-            "eventCategory": "Navigation",
-            "eventAction": "swipeFrom#{event.navigationLevel}",
-            "eventLabel": "#{event.direction}",
-            "eventValue": "#{event.duration}"
-          }
-        }
-      }
+  "chartbeat" : [ {
+    "vars" : {
+      "authors" : "",
+      "uid" : "test1",
+      "domain" : "test2"
+    },
+    "touchVars" : {
+      "useCookies" : ""
     }
-  ]
+  }, {
+    "vars" : {
+      "authors" : "",
+      "domain" : "test23",
+      "uid" : "test14"
+    },
+    "touchVars" : {
+      "useCookies" : ""
+    }
+  } ],
+  "comscore" : [ {
+    "vars" : {
+      "ns_site" : "etst",
+      "c2" : "test"
+    },
+    "touchVars" : {
+      "runtimeEnvironment" : "test",
+      "environment" : "test"
+    }
+  } ],
+  "facebookpixel" : [ {
+    "vars" : {
+      "pixelId" : "test1"
+    }
+  } ]
 }
