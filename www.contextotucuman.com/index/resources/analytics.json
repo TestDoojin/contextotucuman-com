@@ -1,1 +1,10 @@
-{ }
+{
+  "googleanalytics" : [ {
+    "vars" : {
+      "account" : "UA-1968078-1"
+    },
+    "touchVars" : {
+      "environment" : "#{env.device.environment}"
+    }
+  } ]
+}
