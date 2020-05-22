@@ -8,14 +8,5 @@
     "touchVars" : {
       "useCookies" : ""
     }
-  }, {
-    "vars" : {
-      "authors" : "",
-      "domain" : "test23",
-      "uid" : "test14"
-    },
-    "touchVars" : {
-      "useCookies" : ""
-    }
   } ]
 }
