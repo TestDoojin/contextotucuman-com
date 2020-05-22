@@ -27,10 +27,5 @@
       "runtimeEnvironment" : "test",
       "environment" : "test"
     }
-  } ],
-  "facebookpixel" : [ {
-    "vars" : {
-      "pixelId" : "test1"
-    }
   } ]
 }
