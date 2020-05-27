@@ -5,6 +5,7 @@
     },
     "touchVars" : {
       "environment" : "#{env.device.environment}"
-    }
+    },
+    "platforms" : [ "AMP", "CHEROKEE" ]
   } ]
 }
