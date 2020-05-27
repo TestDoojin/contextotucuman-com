@@ -20,22 +20,6 @@
     "@marfeel/eslint-config-js" : "^1.0.1-snapshot.19",
     "@marfeel/touch-utils" : "^1.0.9-snapshot.122.0"
   },
-  "details" : {
-    "main" : "index.js",
-    "repository" : {
-      "type" : "git",
-      "url" : "git+https://github.com/Marfeel/contextotucuman.com.git"
-    },
-    "license" : "ISC",
-    "bugs" : {
-      "url" : "https://github.com/Marfeel/contextotucuman.com/issues"
-    },
-    "homepage" : "https://github.com/Marfeel/contextotucuman.com#readme",
-    "eslintConfig" : {
-      "extends" : [ "@marfeel/js", "@marfeel/jest" ]
-    },
-    "eslintIgnore" : [ "**/*.js", "!**/src/**/*.js", "**/src/whiteCollar/*.js" ]
-  },
   "main" : "index.js",
   "repository" : {
     "type" : "git",
