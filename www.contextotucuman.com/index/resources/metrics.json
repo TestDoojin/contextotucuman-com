@@ -1,1 +1,7 @@
-{ }
+{
+  "alexa" : [ {
+    "name" : "alexa0",
+    "acctNum" : "test",
+    "domain" : "test"
+  } ]
+}
