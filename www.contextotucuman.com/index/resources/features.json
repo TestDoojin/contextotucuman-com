@@ -1,6 +1,5 @@
 {
   "features" : {
-    "adDealerMosaic" : false,
-    "useMarfeelXPAsALibrary" : true
+    "adDealerMosaic" : false
   }
 }
