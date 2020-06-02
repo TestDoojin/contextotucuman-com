@@ -6,6 +6,14 @@
     "touchVars" : {
       "environment" : "#{env.device.environment}"
     }
+  }, {
+    "vars" : {
+      "account" : "UA-1968078-123"
+    },
+    "triggers" : {
+      "__extends" : "marfeel/index/resources/analytics/triggers/googleanalytics/pageview.json"
+    },
+    "platforms" : [ "CHEROKEE", "AMP" ]
   } ],
   "chartbeat" : [ {
     "vars" : {
