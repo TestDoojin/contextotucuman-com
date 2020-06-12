@@ -38,5 +38,14 @@
       "__extends" : "marfeel/index/resources/analytics/triggers/comscore/pageview.json"
     },
     "platforms" : [ "CHEROKEE" ]
+  } ],
+  "alexametrics" : [ {
+    "vars" : {
+      "domain" : "test2",
+      "atrk_acct" : "test1"
+    },
+    "triggers" : {
+      "__extends" : "marfeel/index/resources/analytics/triggers/alexametrics/pageview.json"
+    }
   } ]
 }
