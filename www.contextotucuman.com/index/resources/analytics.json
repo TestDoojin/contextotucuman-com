@@ -32,7 +32,7 @@
   "jetpack" : [ {
     "vars" : {
       "apiVersion" : "A4.0.3",
-      "blog" : "test",
+      "blog" : "test111",
       "tz" : "test"
     },
     "touchVars" : {

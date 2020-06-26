@@ -13,8 +13,7 @@
     "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0",
     "@marfeel/analytics-providers-googleanalytics" : "1.3.7",
     "@marfeel/analytics-providers-chartbeat" : "1.1.9",
-    "@marfeel/analytics-providers-comscore" : "1.0.13",
-    "@marfeel/analytics-providers-alexametrics" : "1.0.1"
+    "@marfeel/analytics-providers-jetpack" : "1.0.2"
   },
   "devDependencies" : {
     "@marfeel/cli" : "^1.0.1-snapshot.308",
@@ -23,6 +22,7 @@
     "@marfeel/eslint-config-js" : "^1.0.1-snapshot.19",
     "@marfeel/touch-utils" : "^1.0.9-snapshot.122.0"
   },
+  "empty" : false,
   "main" : "index.js",
   "repository" : {
     "type" : "git",
