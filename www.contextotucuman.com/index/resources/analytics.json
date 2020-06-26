@@ -28,18 +28,5 @@
       "__extends" : "marfeel/index/resources/analytics/triggers/chartbeat/pageview.json"
     },
     "platforms" : [ "AMP" ]
-  } ],
-  "jetpack" : [ {
-    "vars" : {
-      "apiVersion" : "A4.0.3",
-      "blog" : "test111",
-      "tz" : "test"
-    },
-    "touchVars" : {
-      "postId" : "0"
-    },
-    "triggers" : {
-      "__extends" : "marfeel/index/resources/analytics/triggers/jetpack/pageview.json"
-    }
   } ]
 }
