@@ -22,7 +22,6 @@
     "@marfeel/eslint-config-js" : "^1.0.1-snapshot.19",
     "@marfeel/touch-utils" : "^1.0.9-snapshot.122.0"
   },
-  "empty" : false,
   "main" : "index.js",
   "repository" : {
     "type" : "git",
