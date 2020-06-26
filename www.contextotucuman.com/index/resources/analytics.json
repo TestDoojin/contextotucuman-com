@@ -28,15 +28,5 @@
       "__extends" : "marfeel/index/resources/analytics/triggers/chartbeat/pageview.json"
     },
     "platforms" : [ "AMP" ]
-  } ],
-  "comscore" : [ {
-    "vars" : {
-      "ns_site" : "test",
-      "c2" : "test"
-    },
-    "triggers" : {
-      "__extends" : "marfeel/index/resources/analytics/triggers/comscore/pageview.json"
-    },
-    "platforms" : [ "CHEROKEE" ]
   } ]
 }
