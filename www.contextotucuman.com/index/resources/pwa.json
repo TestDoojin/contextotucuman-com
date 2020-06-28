@@ -1,6 +1,7 @@
 {
-  "pwaProviderConfigured" : true,
+  "pwa" : -1,
   "marfeelPush" : [ {
-    "appId" : "3860f0b7-7a9c-4244-a034-abc18c8041ff"
+    "name" : "oneSignal",
+    "appId" : "7ee75901-d941-4b86-9d29-92bd93de2f92"
   } ]
 }

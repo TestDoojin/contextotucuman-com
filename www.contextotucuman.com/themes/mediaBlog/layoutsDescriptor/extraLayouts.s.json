@@ -1,8 +1,0 @@
-{
-    "layouts": [
-        "photo/photo_slider",
-        "newspaper/photo_card",
-        "newspaper/thumb_card",
-        "newspaper/pill_fullWidth_card"
-    ]
-}

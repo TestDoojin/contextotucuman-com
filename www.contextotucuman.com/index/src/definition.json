@@ -1,67 +1,45 @@
 {
-    "name": "index",
-    "title": "Contexto Tucumán",
-    "uri": "www.contextotucuman.com",
-    "twitter": "contexto_tuc",
-    "userInterface": {
-        "lang": "es",
-        "themeName": "mediaBlog",
-        "resourcesHost": "https://b.marfeel.com",
-        "features": {
-            "enableAdDealerInMosaic": false,
-            "topMediaCaptionEnabled": "true",
-            "mediaCaptionClass": "fotos-containers",
-            "twisterJavaEnabled": true,
-            "useInventoryJsonInTouch": true,
-            "maxAdsInArticle": 6,
-            "forceXL": true,
-            "socialSharing": "facebook, twitter",
-            "lateralMenuShareOptions": true,
-            "socialNetworks": [
-                {
-                    "name": "facebook",
-                    "uri": "https://www.facebook.com/contexto"
-                },
-                {
-                    "name": "twitter",
-                    "uri": "https://twitter.com/contexto_tuc"
-                },
-                {
-                    "name": "instagram",
-                    "uri": "https://www.instagram.com/contextotucuman/"
-                }
-            ],
-            "defaultMediaSelectorStrategy": "DETAIL_OR_HINT",
-            "logo": {
-                "alternate": "https://b.marfeel.com/statics/www.contextotucuman.com/index/logo_alternate.png",
-                "width": 245,
-                "height": 60
-            },
-            "useMetricsJson": true,
-            "wordsForFirstAd": "6,6"
-        }
-    },
-    "configuration": {
-        "blacklist": "[src=uploads/ng_crop],notas-dia,notas-sem,sidebar,at4-share,footer-above",
-        "whitelist": "row",
-        "whiteCollarScript": "index/src/whiteCollar/main.js",
-        "allowInlineStyles": "true",
-        "feedRipper": "puppeteerRipper"
-    },
-    "sectionDefinitions": [
-        {
-            "name": "portada",
-            "styles": "photo",
-            "title": "Portada",
-            "configuration": {
-                "cronRefresh": "0 0/3 * 1/1 * ? *"
-            },
-            "feedDefinitions": [
-                {
-                    "uri": "https://www.contextotucuman.com/",
-                    "alibabaDefinition": {}
-                }
-            ]
-        }
-    ]
+  "name" : "index",
+  "title" : "Marfeel News – Get the story behind the story",
+  "uri" : "ephemeral-wp-638.euwest11.mks.mrf.io",
+  "userInterface" : {
+    "themeName" : "hackathon",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "en",
+    "features" : {
+      "useMetricsJson" : true,
+      "useUiJson" : true,
+      "useInventoryJsonInTouch" : true,
+      "forceXL" : true,
+      "socialSharing" : "facebook, twitter, email, whatsapp",
+      "nativeAdvInDetails" : true,
+      "lateralMenuSearch" : true,
+      "disableClassicVersion" : true,
+      "twisterJavaEnabled" : true,
+      "enableAdDealerInMosaic" : true,
+      "lateralMenuShareOptions" : true,
+      "swName" : "marfeel_sw",
+      "enableReact" : true
+    }
+  },
+  "configuration" : {
+    "quartzInvalidation" : "false",
+    "nextExtractionStrategy" : "pressDefault",
+    "feedRipper" : "marfeelPressRipper",
+    "marfeelPressToken" : "ThJ0OgbJM8T1OdPU",
+    "itemExtractorType" : "boilerpipePressExtractor",
+    "detailItemsProcessor" : "throttledDetailItemsProcessor",
+    "articlePathLastParts" : "1",
+    "articlePathParts" : "2",
+    "skipSubtitle" : "true"
+  },
+  "sectionDefinitions" : [ {
+    "name" : "home",
+    "styles" : "photo",
+    "title" : "Home",
+    "feedDefinitions" : [ {
+      "uri" : "https://ephemeral-wp-638.euwest11.mks.mrf.io",
+      "alibabaDefinition" : { }
+    } ]
+  } ]
 }

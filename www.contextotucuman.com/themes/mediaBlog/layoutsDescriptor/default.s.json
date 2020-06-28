@@ -1,9 +1,0 @@
-{
-    "layouts": [
-        "newspaper/pill_fullWidth_card",
-        ["newspaper/thumb_card",3],
-        "layoutRoba",
-        ["newspaper/thumb_card",3],
-        "layoutRoba"
-    ]
-}

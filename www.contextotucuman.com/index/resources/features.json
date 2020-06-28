@@ -1,6 +1,11 @@
 {
-  "features" : {
-    "adDealerMosaic" : false,
-    "useMarfeelXPAsALibrary" : true
+  "options": {},
+  "features": {
+    "lazyItemsOnSectionExtraction": true,
+    "useMarfeelXPAsALibrary" : true,
+    "renderSectionPagination" : true,
+    "contentCards": true,
+    "contentCardsByGeo": "VE",
+    "consequenceUpdates": true
   }
 }

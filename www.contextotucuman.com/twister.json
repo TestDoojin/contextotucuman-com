@@ -1,8 +1,11 @@
 {
-  "hostname" : "contextotucuman.com",
-  "businessModel" : "OAP",
-  "extraHeaderBidders" : [ ],
-  "adNetworkProfileStrategy" : "DEFAULT",
-  "paidImpressions" : { },
-  "sellerId" : "325879021"
+  "hostname" : "ephemeral-wp-638.euwest11.mks.mrf.io",
+  "businessModel" : "ENTERPRISE",
+  "multisizeStrategyRatio" : 0,
+  "paidImpressions" : {
+    "inline" : {
+      "adServer" : "dfpHack"
+    }
+  },
+  "sellerId" : "1539646679"
 }

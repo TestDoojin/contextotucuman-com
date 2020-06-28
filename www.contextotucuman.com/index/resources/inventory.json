@@ -1,111 +1,11 @@
 {
-  "placements" : {
-    "top_mosaic" : {
-      "adServer" : "adsense_default_adFromat",
-      "params" : {
-        "SLOT" : "9853704652",
-        "HEIGHT" : "100",
-        "WIDTH" : "320"
-      }
-    },
-    "inline_details_1" : {
-      "adServer" : "adsense_default_adFromat",
-      "params" : {
-        "SLOT" : "9853704652",
-        "HEIGHT" : "100",
-        "WIDTH" : "320"
-      }
-    },
-    "inline_mosaic" : {
-      "adServer" : "adsense_default_all",
-      "params" : {
-        "SLOT" : "5316623459"
-      }
-    },
-    "bottom_mosaic_2" : {
-      "adServer" : "adsense_default_adFromat",
-      "params" : {
-        "SLOT" : "9803047854",
-        "HEIGHT" : "600",
-        "WIDTH" : "300"
-      }
-    },
-    "inline_details_3" : {
-      "adServer" : "adsense_default_all",
-      "params" : {
-        "SLOT" : "6363005454"
-      }
-    },
-    "inline_details_4" : {
-      "adServer" : "adsense",
-      "params" : {
-        "SLOT" : "8194144256",
-        "HEIGHT" : "500",
-        "WIDTH" : "300",
-        "ADFORMAT" : "horizontal"
-      }
-    },
-    "inline_details_5" : {
-      "adServer" : "adsense_default_sizes",
-      "params" : {
-        "SLOT" : "3553179317",
-        "ADFORMAT" : "fluid"
-      }
-    },
-    "inline_details_6" : {
-      "adServer" : "adsense_default_adFromat",
-      "params" : {
-        "SLOT" : "6057553857",
-        "WIDTH" : "336",
-        "HEIGHT" : "280"
-      }
-    },
-    "inline_details_7" : {
-      "adServer" : "adsense_default_sizes",
-      "params" : {
-        "SLOT" : "7971291698",
-        "ADFORMAT" : "fluid"
-      }
-    },
-    "inline_gallery" : {
-      "adServer" : "adsense_default_adFromat",
-      "params" : {
-        "SLOT" : "9853704652",
-        "HEIGHT" : "100",
-        "WIDTH" : "320"
-      }
-    }
-  },
-  "adServers" : {
-    "adsense" : {
-      "type" : "adsense",
-      "ad-client" : "ca-pub-4773260293548169",
-      "ad-slot" : "${SLOT}",
-      "width" : "${WIDTH}",
-      "height" : "${HEIGHT}",
-      "json" : {
-        "ad-format" : "${ADFORMAT}"
-      }
-    },
-    "adsense_default_adFromat" : {
-      "type" : "adsense",
-      "ad-client" : "ca-pub-4773260293548169",
-      "ad-slot" : "${SLOT}",
-      "width" : "${WIDTH}",
-      "height" : "${HEIGHT}"
-    },
-    "adsense_default_sizes" : {
-      "type" : "adsense",
-      "ad-client" : "ca-pub-4773260293548169",
-      "ad-slot" : "${SLOT}",
-      "json" : {
-        "ad-format" : "${ADFORMAT}"
-      }
-    },
-    "adsense_default_all" : {
-      "type" : "adsense",
-      "ad-client" : "ca-pub-4773260293548169",
-      "ad-slot" : "${SLOT}"
+  "placements": {},
+  "adServers": {
+    "dfpHack": {
+      "type": "doubleclick",
+      "slot": "/22571134/marfeel-hack-main",
+      "width": 300,
+      "height": 250
     }
   }
 }
