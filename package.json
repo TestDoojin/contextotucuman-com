@@ -11,7 +11,8 @@
   },
   "dependencies" : {
     "@marfeel/adserver-providers-adsense" : "^1.1.1-snapshot.68.0",
-    "@marfeel/analytics-providers-alexametrics" : "1.0.4"
+    "@marfeel/analytics-providers-alexametrics" : "1.0.4",
+    "@marfeel/analytics-providers-jetpack" : "1.0.2"
   },
   "devDependencies" : {
     "@marfeel/cli" : "^1.0.1-snapshot.308",
