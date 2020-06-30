@@ -2,10 +2,11 @@
   "alexametrics" : [ {
     "vars" : {
       "domain" : "test",
-      "atrk_acct" : "test213"
+      "atrk_acct" : "test2134"
     },
     "triggers" : {
       "__extends" : "marfeel/index/resources/analytics/triggers/alexametrics/pageview.json"
-    }
+    },
+    "platforms" : [ "TOUCH", "AMP" ]
   } ]
 }
