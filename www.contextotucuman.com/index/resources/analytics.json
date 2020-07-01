@@ -11,18 +11,5 @@
     "triggers" : {
       "__extends" : "marfeel/index/resources/analytics/triggers/jetpack/pageview.json"
     }
-  } ],
-  "chartbeat" : [ {
-    "vars" : {
-      "authors" : "",
-      "uid" : "test1",
-      "domain" : "test"
-    },
-    "touchVars" : {
-      "useCookies" : ""
-    },
-    "triggers" : {
-      "__extends" : "marfeel/index/resources/analytics/triggers/chartbeat/pageview.json"
-    }
   } ]
 }
