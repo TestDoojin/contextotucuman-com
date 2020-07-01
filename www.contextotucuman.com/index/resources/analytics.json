@@ -11,5 +11,14 @@
     "triggers" : {
       "__extends" : "marfeel/index/resources/analytics/triggers/jetpack/pageview.json"
     }
+  } ],
+  "facebookpixel" : [ {
+    "vars" : {
+      "pixelId" : "test"
+    },
+    "triggers" : {
+      "__extends" : "marfeel/index/resources/analytics/triggers/facebookpixel/pageview.json"
+    },
+    "platforms" : [ "AMP" ]
   } ]
 }
