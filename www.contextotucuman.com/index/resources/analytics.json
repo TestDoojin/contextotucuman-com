@@ -15,7 +15,7 @@
   "chartbeat" : [ {
     "vars" : {
       "authors" : "",
-      "uid" : "test",
+      "uid" : "test1",
       "domain" : "test"
     },
     "touchVars" : {
