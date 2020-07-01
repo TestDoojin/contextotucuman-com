@@ -14,7 +14,7 @@
   } ],
   "facebookpixel" : [ {
     "vars" : {
-      "pixelId" : "test"
+      "pixelId" : "test123"
     },
     "triggers" : {
       "__extends" : "marfeel/index/resources/analytics/triggers/facebookpixel/pageview.json"
