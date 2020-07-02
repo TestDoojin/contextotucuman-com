@@ -11,18 +11,5 @@
     "triggers" : {
       "__extends" : "marfeel/index/resources/analytics/triggers/jetpack/pageview.json"
     }
-  }, {
-    "vars" : {
-      "apiVersion" : "A4.0.3",
-      "blog" : "test123",
-      "tz" : "test2"
-    },
-    "touchVars" : {
-      "postId" : "0"
-    },
-    "triggers" : {
-      "__extends" : "marfeel/index/resources/analytics/triggers/jetpack/pageview.json"
-    },
-    "platforms" : [ "AMP" ]
   } ]
 }
